@@ -1,0 +1,269 @@
+/* Layout Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole-signup {
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.const-signup {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+/* Container 1 (Left Side) Styling */
+.container1-signup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-text-signup {
+  color: #8a3ffc;
+  margin: 0%;
+  padding: 0%;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.form-container-signup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.input-container-signup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+}
+
+.input-label-signup {
+  color: #37393c;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-field-signup {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background: #f9f6ff;
+  border-radius: 10px;
+  border: 1px solid #dacaef;
+  color: #999;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-field-signup-password {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background: #f9f6ff;
+  border-radius: 10px;
+  border: 1px solid #dacaef;
+  color: #999;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-appearance: none; /* remove default password input styling */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.terms-container-signup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.checkbox-signup {
+  width: 21px;
+  height: 21px;
+  border-radius: 6px;
+  border: 1px solid #e3e2e2;
+}
+
+.terms-text-signup {
+  color: rgba(55, 57, 60, 0.8);
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.divider-container-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin:0;
+}
+
+.divider-line-signup {
+  height: 1px;
+  background-color: #e8ddff;
+  flex: 1;
+}
+
+.divider-text-signup {
+  color: #afafb0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social-buttons-container-signup {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.social-button-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.google-button-signup {
+  border-color: #db4437;
+}
+
+.apple-button-signup {
+  border-color: #000;
+}
+
+.social-text-signup {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.submit-button-container-signup {
+  text-align: center;
+}
+
+.submit-button-signup {
+  width: 100%;
+  height: 50px;
+  background-color: #8a3ffc;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.signin-container-signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signin-text-signup {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+}
+.signin-text-signup span{
+  padding-left: 5px;
+}
+
+
+.signin-link-text-signup {
+  color: #8a3ffc;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+/* Container 2 (Right Side) Styling */
+.container2-signup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-section-signup {
+  margin-bottom: 30px;
+}
+
+.quote-signup {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #8A3FFC 0%, #DFCBFE 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.subheading-signup {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(85, 85, 85, 0.600);
+  margin-top: 10px;
+}
+
+.shape-signup {
+  margin-top: 20px;
+}
+
+hr{
+  width: 37%;
+}
+
+
+
+.password-container-signup {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-field-signup-password {
+  width: 100%;
+  padding-right: 40px; /* Ensure there's space for the eye icon */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px; /* Adjust the value to position the icon correctly */
+  cursor: pointer;
+  color: #888;
+}
+
+.eye-icon:hover {
+  color: #333;
+}
+
+.password-container-signup input {
+  padding-right: 40px; /* Adds extra space for the icon in the input */
+}

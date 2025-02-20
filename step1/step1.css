@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F7F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 90%;
+}
+
+h2 {
+    font-size: 24px;
+    color: #8A52FF;
+    margin-bottom: 20px;
+}
+
+h2 span {
+    color: #b19cd9;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+.input-group input, 
+.input-group select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #777;
+    background-color: #d6c3ff83;
+}
+
+input::placeholder {
+    color: #b9b9d6;
+}
+
+.mobile-input {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-input button {
+    background-color: #D6C3FF;
+    color: white;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding: 10px 15px;
+}
+
+.mobile-input input {
+    border-radius: 0 8px 8px 0;
+    flex-grow: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.back-button, .next-button {
+    background-color: #8A52FF;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.next-button {
+    border-radius: 8px;
+    padding: 12px 40px;
+}
+
+.back-button:hover, .next-button:hover {
+    background-color: #703cff;
+}
+
+.back-button {
+    background-color: #8A52FF;
+    color: white;
+    width: 30px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.photo {
+    width: 90px;
+    height: 90px;
+}
+
+.photo p {
+    border-radius: 14px;
+    border-color: #8A52FF;
+    display: flex;
+    border: 1px solid #8A3FFC;
+    width: 190px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    padding-bottom: 24px;
+}
+
+.words {
+    padding-bottom: 24px;
+}

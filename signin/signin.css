@@ -1,0 +1,236 @@
+/* Layout Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.signin-wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+/* Left Side - Sign Up Form Styling */
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-header {
+    color: #8a3ffc;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-group-signin {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+}
+
+.input-label {
+    color: #37393c;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-field-signin {
+    width: 100%;
+  height: 45px;
+  padding: 10px;
+  background: #f9f6ff;
+  border-radius: 10px;
+  border: 1px solid #dacaef;
+  color: #999;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-field-signin-password {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    background: #f9f6ff;
+    border-radius: 10px;
+    border: 1px solid #dacaef;
+    color: #999;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-appearance: none; /* remove default password input styling */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.terms-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.terms-checkbox {
+    width: 21px;
+    height: 21px;
+    border-radius: 6px;
+    border: 1px solid #e3e2e2;
+}
+
+.terms-label {
+    color: rgba(55, 57, 60, 0.8);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.divider-line {
+    height: 1px;
+    background-color: #e8ddff;
+    flex: 1;
+}
+
+.divider-text {
+    color: #afafb0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.google-button {
+    border-color: #db4437;
+}
+
+.apple-button {
+    border-color: #000;
+}
+
+.social-button-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.submit-button-wrapper {
+    text-align: center;
+    padding: 0;
+}
+
+.submit-button-wrapper button {
+    width: 100%;
+    height: 50px;
+    background-color: #8a3ffc;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04ch;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.signin-link-wrapper {
+    text-align: center;
+}
+
+.signin-text {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+}
+
+.signin-link {
+    color: #8a3ffc;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* Right Side - Quote Section Styling */
+.quote-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-text {
+    margin-bottom: 30px;
+}
+
+.quote {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #8A3FFC 0%, #DFCBFE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.subheading {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(85, 85, 85, 0.600);
+    margin-top: 10px;
+}
+
+.shape-wrapper {
+    margin-top: 20px;
+}
