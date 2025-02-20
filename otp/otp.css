@@ -1,0 +1,116 @@
+/* Body styling for center alignment */
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Modal Background */
+.otp-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* OTP Container with pop-up effect */
+.otp-container {
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 2px solid #D0BCFF;
+    border-radius: 14px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    animation: popUp 0.3s ease-in-out; /* Popup animation */
+    position: relative;
+}
+
+/* OTP Popup Animation */
+@keyframes popUp {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.otp-title {
+    margin: 0;
+    color: #3C3E41;
+    font-weight: 600;
+}
+
+.otp-subtitle {
+    margin: 0;
+    color: #37393C;
+    font-weight: 600;
+}
+
+.otp-input-container {
+    display: flex;
+    gap: 16px;
+}
+
+.otp-input {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F9F6FF;
+    border: solid 1px #D0BCFF;
+    color: #37393C;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Button for OTP Confirmation */
+.otp-button {
+    width: 100%;
+    padding: 9px 24px;
+    border-radius: 14px;
+    background-color: #8A3FFC;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.otp-button:hover {
+    background-color: #7a36dc;
+}
+
+/* Close Button for Modal */
+.otp-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Button to open OTP Verification */
+.otp-open-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #8A3FFC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.otp-open-button:hover {
+    background-color: #7a36dc;
+}

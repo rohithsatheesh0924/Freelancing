@@ -1,0 +1,153 @@
+/* General styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6, div {
+    margin: 0;
+  }
+  
+  /* Container for both sections */
+  .containerRightBankForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Form container styles */
+  .formContainerBankForm {
+    padding-right: 20px;
+  }
+  
+  .cardDetailsBankForm {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .cardnoBankForm input,
+  .chnameBankForm input,
+  .cvcdetailsBankForm input,
+  .exdateBankForm input {
+    background-color: #F9F6FF;
+    color: #999999;
+    border: solid 1px #DACAFF;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cardnoBankForm input,
+  .chnameBankForm input {
+    height: 33px;
+  }
+  
+  .cvcdetailsBankForm input,
+  .exdateBankForm input {
+    height: 30px;
+  }
+  
+  .excvcBankForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cvcdetailsBankForm,
+  .exdateBankForm {
+    width: 167px;
+  }
+  
+  .checkBankForm {
+    display: flex;
+    gap: 10px;
+    color: #37393C;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .containerBankForm {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .buttonsBankForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .niceBankForm button,
+  .superBankForm button {
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #8A3FFC;
+    color: #fff;
+    border: none;
+    padding: 9px 24px;
+  }
+  
+  .superBankForm button {
+    padding: 12px;
+  }
+  
+  /* Text and image container styles */
+  .textImageContainerBankForm {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container1rightBankForm {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .textContentBankForm {
+    color: #8A3FFC;
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .container2rightBankForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imageContentBankForm {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .topContainerBankForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  .topBankForm {
+    flex: 0 0 30%; /* adjust the width as needed */
+    text-align: left;
+  }
+  
+  .containerBankForm {
+    flex: 1;
+    margin-left: 20px; /* adjust the margin as needed */
+  }
+  h4 {
+    color: #8A3FFC; /* or any other violet shade you prefer */
+  }
+  .topBankForm h4 {
+    color: #8A3FFC; /* or any other violet shade you prefer */
+  }

@@ -1,0 +1,348 @@
+/* Rohit.css */
+
+body {
+    background-color: #f4f7ff;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.whole-page {
+    display: flex;
+}
+
+.side-nav {
+    width: 259px;
+    height: 1200px;
+    background-color: white;
+}
+
+.logo h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.rohit-nav {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+}
+
+.buttons button {
+    height: 48px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:active {
+    background-color: #4A7DFF;
+    color: white;
+}
+
+.uppername {
+    font-size: 16px;
+    color: blue;
+    padding: 22px 21px;
+}
+
+.uppername h1 {
+    margin: 0;
+}
+
+.bigcontainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+.container2 {
+    width: 279px;
+    height: 368px;
+    background: white;
+    border-radius: 10px;
+    border: 0.5px solid #4A7DFF;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+   
+}
+
+.container-content {
+    width: 254px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px;
+}
+
+.container-section {
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header {
+    padding: 12px 7px;
+    background: rgba(202, 228, 254, 0.75);
+    border-radius: 10px;
+    border: 1px solid #3CADFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-text {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.freelancer-button {
+    padding: 10px 9px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    width: 254px;
+}
+
+.freelancer-button:hover {
+    background: #3CADFF;
+    color: white;
+}
+
+.freelancer-text {
+    flex: 1;
+    text-align: left;
+}
+
+.role-text {
+    font-size: 10px;
+    height: 16px;
+    width: 77px;
+    background-color: #4A7DFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nothing-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+    width: 800px;
+}
+
+.rightdown {
+    width: 350px;
+    height: 150px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: 1px solid #3CADFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.rightdownup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightdownone {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    color: rgba(17, 24, 38, 0.80);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+.number {
+    color: #55C37B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    background: #F0DAF5;
+    border-radius: 9px;
+    border: 1px solid #CD1DF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.icon-box {
+    padding: 6.67px 3.33px;
+}
+
+.rightdowntwo {
+    display: flex;
+    align-items: center;
+}
+
+.rightdowntwo .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.rightdowntwo .title {
+    color: rgba(17, 24, 38, 0.80);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+.rightdowntwo .number {
+    color: #55C37B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.rightdowntwo .icon-container {
+    width: 50px;
+    height: 50px;
+    background: #B5F1C8;
+    border-radius: 9px;
+    border: 1px solid #49CE73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.rightdowntwo .icon-box {
+    padding: 13px 8px;
+}
+
+.right_right {
+    width: 279px;
+    height: 419px;
+    padding: 13px 8px;
+    background: white;
+    border-radius: 10px;
+    border: 0.5px solid #4A7DFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.right_down_right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 8px 13px;
+}
+
+.message_box {
+    width: 265px;
+    padding: 12px 7px;
+    background: rgba(202, 228, 254, 0.75);
+    border-radius: 10px;
+    border: 1px solid #3CADFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.message_content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.message_text {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.chat_list {
+    width: 263px;
+    height: 328px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.chat_item {
+    width: 100%;
+    height: 43px;
+}
+
+.chat_content {
+    width: 100%;
+    padding: 10px 9px;
+    background: white;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat_name {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.chat_message {
+    color: #474747;
+    font-size: 15px;
+    font-weight: 400;
+}
